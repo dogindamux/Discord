@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def kit　剣士(ctx):
+async def kit剣士(ctx):
     await ctx.send( '剣士の説明' ）
 
 
