@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='kit:')
+bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
@@ -14,8 +14,9 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ルール(ctx):
-    await ctx.send('pong')
+async def kit 剣士(ctx):
+    await ctx.send('剣士の説明 
+                      '剣士はつよい')
 
 
 bot.run(token)
