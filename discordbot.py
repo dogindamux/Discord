@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def kit剣士(ctx):
-    await ctx.send( '剣士の説明' ）
+    await ctx.send( ' 剣士の説明 ' ）
 
 
 bot.run(token)
