@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def kit 剣士(ctx):
+async def ping(ctx):
     await ctx.send('pong')
 
 
